@@ -32,6 +32,28 @@ sample ("Ram", 15);
 
 sample("Adam");
 
+// return keyword//
+
+function students($fname="First", $lname="Last"){
+echo "students $fname, $lname<br>";
+}
+students("Happy", "pongal");
+
+echo "<br>";
+
+// return keyword//
+
+function marks($fname="First", $lname="Last"){
+
+    $v = "$fname $lname";
+    return $v;
+
+}
+$name = marks("Happy" , "New Year");
+
+echo "marks $name";
+
+
 
 
 ?>
