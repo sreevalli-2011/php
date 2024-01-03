@@ -96,13 +96,7 @@ echo "<pre>";
 print_r($array2);
 echo "</pre>";
 echo"<br>";
-
-
-
 /*implode() function*/
-
-
-
 
 $arr = array('Hello','World!','Beautiful','Day!');
 
